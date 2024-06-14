@@ -52,6 +52,7 @@ export default function LK() {
             <section className="w-[1539px] h-[874px]">
                 <section className="grid grid-col-1">
                     <section className="h-[82px] shadow-2xl rounded-3xl flex items-center justify-end pe-20 gap-x-4">
+                    <section className="text-3xl pe-[800px]">Бобров обжаловать, <span className="text-[#7362BC]">Миша</span>!</section>
                         <Image src='/chat icon.png' width={56} height={56} alt='chat' />
                         <section className="flex">
                         <Image src='/avatar.png' width={56} height={56} alt='avatar' />

@@ -11,7 +11,10 @@ export default function DropWindow(props: { route: any; show: boolean; setShow: 
             <section className="ms-64 -mt-4">
                 <Image src='/Polygon 2.png' width={21} height={14} alt='arrow' /> 
             </section>
-            <section className="flex flex-col gap-y-6 pt-8 ps-8">
+            <button className="w-full flex justify-end ms-4 pt-2" onClick={() => setShow(!show)}>
+                <Image src='/Delete, Disabled.png' width={32} height={32} alt="delet" />
+            </button>
+            <section className="flex flex-col gap-y-6 ps-8">
                 {inDropItems.map((el, index) => {
                     if (index === 0) {
                         return <section key={el} className="text-xl">{el}</section>
